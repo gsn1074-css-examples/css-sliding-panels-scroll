@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>css-sliding-panels-scroll</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+</head>
+<body>
+    <div id="main">
+        <section>
+            <h2>CSS Sliding Panels on Scroll Example</h2>
+        </section>
+        <div class="os-animation btm" data-os-animation="fadeInLeft" data-os-animation-delay=".5s">
+            <img src="img/arrow.png">
+        </div>
+    </div>
+    <section class="os-animation staggered-animation-container">
+        <div id="panel1" class="staggered-animation right" data-os-animation="fadeInRightBig" data-os-animation-delay="0.5s"></div>
+        <div id="panel2" class="staggered-animation left" data-os-animation="fadeInLeftBig" data-os-animation-delay="0.8s"></div>
+        <div id="panel3" class="staggered-animation right" data-os-animation="fadeInRightBig" data-os-animation-delay="1.1s"></div>
+    </section>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
